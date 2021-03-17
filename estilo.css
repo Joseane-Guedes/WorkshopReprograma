@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0 ;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .caixa-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../img/joseane.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 80vh;
+    font-family: lobster;
+    background-color:#312d28;
+    background-image: linear-gradient(to bottom, #980021 130%);
+   
+  }
+
+
+
+  .btn-branco{
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 80px;
+    font-weight: bold;
+
+  }
+
+  a:hover {
+    color: black;
+  }
+ 
+
+  /*=========SECAO DE CONTEUDO============*/
+  
+  h2 {
+    font-size: 36px;
+    color: #C4C4C4;
+    margin: 50px;
+  }
+  
+  .caixa-secao-conteudo{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .caixa-somente-conteudo{
+    display: flex;
+    margin:25px 55px;
+  }
+  
+  .btn-roxo {
+    padding: 15px;
+    width: 190px;
+    border-radius: 80px;
+    border: #770d77 1px solid;
+    color: #770d77;
+  }
+  
+  .caixa-texto-sobre-mim{
+    margin-bottom: 50px;
+  }
+  
+  .caixa-sobre-mim{
+  width: 40%;
+  }
+  
+  .caixa-lista-sobre-mim{
+    width: 40%;
+    margin-left: 50px;
+  }
+  
+  /*============redes sociais============*/
+  
+  .caixa-item-rede-social{
+    padding: 20px;
+    text-align: center;
+    background-color:#770d77;
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 40px;
+
+  }
+  
+  .link-rede-social{
+    color: white;
+  }
+  
+  .caixa-mae-rede-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+  
+  .caixa-item-rede-social:hover {
+    background-color: pink;
+  }
+
+  footer{
+    text-align: center;
+    color: #C4C4C4;
+    padding: 30px;
+  }
+
+
+  
